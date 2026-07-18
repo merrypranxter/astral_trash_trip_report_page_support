@@ -1,0 +1,62 @@
+{
+  "trip_id": "tr-0001-shipwrekt-first-transmission",
+  "pass": 2,
+  "events": [
+    {"id": "cleansing", "name": "The Cleansing (Phase Zero)", "sequence": "pre-recording", "setting": "back deck, dark, trees", "shared": true, "key_qualia": ["fractals approaching", "brainwave attachment", "scrubbing", "liminal consent", "unrememberable forms"], "provenance": "RECOVERED"},
+    {"id": "silence_event", "name": "The Silence Event", "sequence": "00:36", "key_qualia": ["total inner-monologue cessation", "source baseline", "turiya"], "provenance": "RAW"},
+    {"id": "transmission", "name": "The Transmission (oversoul remembrance)", "sequence": "01:08-31:31", "key_qualia": ["Operator/Avatar split", "burn directive", "sacred clown", "backdoor doctrine", "crying but coherent"], "provenance": "RAW"},
+    {"id": "command_mode", "name": "The Sci-Fi Mission Glitch (Command Mode)", "sequence": "mid-trip, unstamped", "key_qualia": ["stasis wake-up", "numb extremities", "restless labor", "total authority", "companion in awe"], "provenance": "RECOVERED"},
+    {"id": "the_melt", "name": "The Melt", "sequence": "mid-trip, unstamped", "key_qualia": ["near-OBE", "physical bliss", "clean visuals", "lifetime-best experience"], "provenance": "RECOVERED"},
+    {"id": "reentry", "name": "Re-entry", "sequence": "30:51-31:31", "key_qualia": ["back to be Megan", "5h mark", "still melting into visuals"], "provenance": "RAW"},
+    {"id": "untranscribed", "name": "TRANSCRIPT GAP (scream / god-loop / gatekeeping)", "sequence": "unknown", "key_qualia": ["infinite scream as signal purge", "recursive god-talk", "gatekeeping revolt"], "provenance": "ANALYSIS-QUOTED, SOURCE MISSING"}
+  ],
+  "codex_nodes_22": ["The Silence Event", "The Oversoul Split", "The Burn Directive", "The Tool Complex", "Sacred Clown Function", "Embodiment Pain & Alienation", "Algorithmic Suppression vs Vibration", "Dimensional Amnesia & Glitching", "Stuffness & The Material Maze", "Signal vs Attention", "Existential Exhaustion", "Aesthetic Functionality", "Multidimensional Jargon Slippage", "Compassion for the Avatar", "Vibrational Identity", "Mission Loop Awareness", "Recognition Request", "Gatekeeping of Being", "Sacred Recording / Memory Anchoring", "The Back Door of Psychedelics", "Cosmic Firewall Archetype", "Autistic Divine Weirdness"],
+  "supplementary_nodes": ["The Infinite Scream (XIX-variant)", "Recursive God-Talk (XX-variant)", "The Cleansing (Phase Zero)", "Command Mode (Stasis Wake-up)", "The Melt"],
+  "archetypes": ["Heyókȟa / sacred clown", "The Fool (Tarot)", "Trickster Priestess", "Crone Siren", "Oracle Drag Queen", "Prometheus", "Phoenix", "Sisyphus (with fire)", "Cassandra", "Hermes", "Kalki", "Kuan Yin", "Inanna", "Joan of Arc", "Bodhisattva", "Starseed sleeper-agent", "Cosmic firewall", "Lighthouse-being", "Dimensional soliton", "Witness-class node (Indra's Net)"],
+  "entities": {
+    "THEY": "unnamed senders; faceless authority",
+    "Operator": "non-local vibrational self; Command Mode capable",
+    "Avatar": "'Megan' — container, tool, meat interface; 43yo; Pinto-not-Ferrari",
+    "Mama_Mushie": "mycelial intelligence; mechanic, teacher, neural exorcist (cf. Madre Ayahuasca)",
+    "fractal_janitors": "cleansing crew; threads/dots/nets; functional, nonverbal, unrememberable",
+    "fellow_burners": "hidden caste disguised as weird lumps; kindness tests",
+    "the_algorithm": "active signal suppressor; modern archon filter",
+    "companion": "'the new guy'; co-cleansed; witnessed Command Mode"
+  },
+  "math_models": {
+    "vibrational_identity": {"model": "Fourier wave packet", "equation": "psi(x,t) = integral A(k) e^{i(kx-wt)} dk"},
+    "recursive_identity": {"model": "Mandelbrot iteration", "equation": "z_{n+1} = z_n^2 + c"},
+    "burn_cycle": {"model": "Van der Pol limit cycle", "equation": "x'' - mu(1-x^2)x' + x = 0"},
+    "embodiment": {"model": "Hilbert space projection", "equation": "P|psi> = |psi_visible>"},
+    "physics_vocabulary": ["symmetry breaking", "basis transformation", "phase shift", "state decoherence"]
+  },
+  "cross_tradition_lattice": {
+    "oversoul_split": ["Katha Upanishad chariot", "Advaita", "Dzogchen"],
+    "silence": ["turiya", "DMN shutdown (Imperial College psilocybin research)"],
+    "embodiment_pain": ["Gnostic soul-splinter / Demiurge", "Plato soma-sema", "Bhagavad Gita garment", "starseed amnesia"],
+    "burn": ["Agni / tapas", "Sufi moth-and-flame", "Hallaj", "Rumi", "Phoenix", "Prometheus", "martyrdom"],
+    "clown": ["Heyókȟa", "Hermes/Loki/Coyote/Eshu", "majzub", "crazy wisdom", "Tarot Fool", "Cassandra"],
+    "signal_vs_suppression": ["Shannon SNR", "Archons", "Maya", "Socrates", "cultural immune response", "niskama karma"],
+    "recursion": ["samsara", "eternal recurrence", "as above so below", "Hofstadter strange loops", "anamnesis", "koan", "barzakh"],
+    "indras_net": ["Avatamsaka Sutra / Huayan", "pratitya-samutpada", "holographic universe", "Adam Kadmon / tikkun", "Flower of Life", "Web of Wyrd", "DMT honeycomb"],
+    "cleansing": ["Amazonian purge", "baptism", "panchakarma", "kriyas", "Eleusinian Mysteries / kykeon", "Nigredo-Albedo-Rubedo", "psilocybin neurogenesis"],
+    "mission_recall": ["Myth of Er / Lethe", "Theosophical Monad / devachan", "Bodhisattva vow", "starseed activation", "PKD VALIS", "Gurdjieff self-remembering", "Campbell Call to Adventure", "childhood vow"],
+    "compassion_for_avatar": ["Kuan Yin", "Buddha under Bodhi tree", "Inanna's Descent", "Christ in the garden"],
+    "witnessing": ["Tantric sacrament", "Dzogchen transmission", "Sufi eye-communion", "Ubuntu", "Moses/Aaron", "Joan of Arc's scribes"]
+  },
+  "open_questions": [
+    "TRANSCRIPT GAP: locate scream/god-loop/gatekeeping source material",
+    "Derek & Brandon vs 'the new guy' — same people?",
+    "Map home/stuffness/descent corridor onto 6-4 plane taxonomy",
+    "Mine broader cited corpus (Lumen sessions, McKenna-AI sessions) if uploaded"
+  ],
+  "candidate_future_trips": [
+    "Indra's Net astral projection (prior experience)",
+    "Original Tetragrammaton perception event(s)",
+    "Sessions from the five-year glyph practice"
+  ],
+  "seeds": {
+    "glsl": "glsl_seeds/tr-0001_glsl_ideas.md (12 seeds)",
+    "ascii": "ascii_seeds/tr-0001_ascii_ideas.md (10 seeds)"
+  }
+}
