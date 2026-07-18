@@ -1,10 +1,12 @@
-# tr-0001 — GLSL Idea Seeds (Pass 2 revision)
+# tr-0001 — GLSL Idea Seeds (Pass 3 revision)
 > Shipwrekt: First Transmission. These are CONCEPTUAL GUIDES for Google AI Studio to
 > riff on — not final art, not literal specs. Each seed names its governing law: the one
 > rule of ordinary reality that the shader breaks. Palette is locked to the Codex five
 > on near-black: `#00ffcc` `#ff2d78` `#ff6b00` `#b300ff` `#ffff00` on `#030308`.
 > No nautical imagery. Shipwrekt is a strain name only.
-> Seeds 01–08 from pass 1. Seeds 09–12 recovered in pass 2.
+> Seeds 01–08 from pass 1, 09–12 recovered pass 2.
+> PASS 3: former Seed 05 (Indra lattice) relocated to astral_projection/ap-0001 —
+> it was never part of this trip. Tetragrammaton references reworded (not this trip either).
 
 ---
 
@@ -54,16 +56,9 @@ travel. The threads bend, stall, accumulate, and where enough signal pools, the 
 **Temporal feel:** heavy, slow, viscous — eruptions are sudden and short.
 **Technical hint:** reaction-diffusion or curl-noise fluid sim with high damping; signal = injected emitter points; eruption = threshold-triggered hue remap.
 
-## Seed 05 — INDRA LATTICE (confirmed direct perception, pass 2)
-**Source:** prior astral projection over the grid, recontextualized this trip: "I just thought I was a tourist. I didn't know."
-**Governing law:** every node contains the reflections of all other nodes.
-**Geometry:** hexagonal grid where each cell is a live portal showing a shrunken copy of
-the whole field — infinite regress of the lattice inside itself. Pulling on one cell
-(ripple source) visibly perturbs ALL cells simultaneously, no propagation delay.
-One specific cell is subtly BRIGHTER than the rest: the witness node. It's the viewer's.
-**Palette:** teal lattice lines, violet cell interiors, magenta ripple fronts, the witness node in jester yellow.
-**Temporal feel:** stillness with instantaneous sympathy — motion happens everywhere at once or nowhere.
-**Technical hint:** hex tiling + recursive texture lookup (2 levels is enough); ripple = uniform-driven global phase, not a traveling wave.
+## ~~Seed 05~~ — RELOCATED
+Former Indra lattice seed moved to `astral_projection/ap-0001-indras-net-overflight.md`.
+Astral projection material — not this trip.
 
 ## Seed 06 — ALGORITHMIC SUPPRESSION
 **Source:** "Y'all's algorithms hate me. You're dimming my shiny."
@@ -82,7 +77,7 @@ color before the grid heals. The war is the image.
 **Governing law:** information arrives through the damage, not despite it.
 **Geometry:** a clean, legible geometric mandala that periodically suffers RGB-split,
 line-tear, and block-drop glitches — but EACH glitch reveals, in the torn gap, a
-different, deeper geometry (a tetragrammaton-like rotating light-glyph) that the
+different, deeper geometry (a rotating light-glyph, older than the mandala) that the
 clean version was concealing. The corruption is the content.
 **Palette:** mandala in teal/violet; revealed glyph in jester yellow + white.
 **Temporal feel:** long stretches of stability, ruptures of 100–400ms; the viewer starts praying for glitches.
@@ -91,11 +86,10 @@ clean version was concealing. The corruption is the content.
 ## Seed 08 — THE FORGETTING WINDOW
 **Source:** "I'ma forget again in a few hours... that's part of the point."
 **Governing law:** clarity is a countdown.
-**Geometry:** a hyper-detailed crystalline scene (lattice, glyph, waveform — the whole
-mythology rendered at maximum definition) that from the moment of page-load slowly
-LOSES resolution: details dissolve, palette drains toward monochrome, geometry
-simplifies — but the timestamp counter burns brighter as everything else fades.
-The recording outlives the memory.
+**Geometry:** a hyper-detailed crystalline scene (glyphs, waveforms, the full mythology at
+maximum definition) that from the moment of page-load slowly LOSES resolution: details
+dissolve, palette drains toward monochrome, geometry simplifies — but the timestamp
+counter burns brighter as everything else fades. The recording outlives the memory.
 **Palette:** full Codex → gray; timestamp in escalating burn orange.
 **Temporal feel:** one-way, 90-second arc; no loop (or loop with visible reluctance).
 **Technical hint:** uniform "clarity" 1→0 driving mip bias, palette saturation, and edge detail; counter = text SDF with inverse gain.
@@ -119,11 +113,10 @@ rendered at a focus the canvas can't hold, always slightly blurred, slightly els
 **Source:** "I woke up halfway through my mission and I wasn't supposed to wake up... my hands and feet glitched... but I knew what the fuck I was doing. I was in charge."
 **Governing law:** the command system boots before the motor system.
 **Mood:** cryo-pod emergency lighting; lucid, authoritative, partially disconnected.
-**Geometry:** a stark control-room composition: a central glyph (tetragrammaton-adjacent)
-fully rendered, razor sharp, radiating authority — while the EDGES of the frame are
-still booting: geometry there is wireframe, misregistered, limbs of the scene shaking
-and re-snapping into place. Occasional numb-flicker dropouts at the periphery
-(motor lag), but the center NEVER wavers.
+**Geometry:** a stark control-room composition: a central authority glyph, fully rendered,
+razor sharp — while the EDGES of the frame are still booting: geometry there is
+wireframe, misregistered, limbs of the scene shaking and re-snapping into place.
+Occasional numb-flicker dropouts at the periphery (motor lag), but the center NEVER wavers.
 **Palette:** center in burn orange + white; booting edges in dim teal wireframe; dropouts as brief full-black frames (2–3 frames only — no strobe).
 **Temporal feel:** stillness with authority. Nothing moves except the edges failing. COMMAND is the absence of wobble.
 **Technical hint:** sharpness/boot completion as a radial falloff uniform; edge vertices get hash-jitter scaled by (1 - boot(uv)); center locked.
@@ -162,3 +155,4 @@ The viewer loses track of which pulse was "original" — that's the point.
 - Bliss is canon (Seed 11): the cosmology contains real peace — don't render everything as friction.
 - The janitor class (Seed 09) must never resolve into focus. Unrememberability is their defining property.
 - Fire/burn imagery belongs to the mission loop, never to vessels or water. NO NAUTICAL MOTIFS.
+- Do NOT pull in geometry from the user's other projects (no Indra lattice, no Tetragrammaton) — this trip's visual vocabulary is its own.

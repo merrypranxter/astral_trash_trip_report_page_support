@@ -1,8 +1,9 @@
-# tr-0001 — ASCII Idea Seeds (Pass 2 revision)
+# tr-0001 — ASCII Idea Seeds (Pass 3 revision)
 > Shipwrekt: First Transmission. CONCEPTUAL GUIDES for Google AI Studio — density maps,
 > character-set suggestions, chaos/order logic. Not final art. Palette associations carry
 > over from the Codex five when rendered in color: teal/magenta/orange/violet/yellow.
 > No nautical imagery. Seeds 01–07 from pass 1. Seeds 08–10 recovered in pass 2.
+> PASS 3: Tetragrammaton references reworded — not part of this trip.
 
 ---
 
@@ -56,18 +57,18 @@ cools `# + : .`, the rest idle at `.`. A dashed orbit `- - >` chases around the 
 **Logic:** corruption reveals the hidden layer.
 A stable, symmetrical mandala in `+×*` — orderly, almost boring. Random horizontal
 line-tears: rows suddenly shift 5–20 chars sideways and in the exposed seam a DIFFERENT
-character class flashes: `█▓▒░` blocks or `✶` glyphs — the tetragrammaton peeking through.
-The tears close. You start waiting for them.
+character class flashes: `█▓▒░` blocks or `✶` glyphs — an older, deeper geometry peeking
+through. The tears close. You start waiting for them.
 **Density:** 50% stable, seams spike locally to 100%.
 **Charset:** order `+×*·`, revelation `█▓▒░✶`.
 **Motion:** stillness punctured; tears last 1–4 frames.
 
 ## Seed 07 — THE FORGETTING WINDOW
 **Logic:** resolution is a resource that runs out.
-Start: dense hyper-detailed scene (the full lattice) at `▓█` precision. Over 90 seconds
-characters degrade down the ramp: `█▓▒░:.` — the image literally forgets itself.
-One thing does not degrade: a corner timestamp `00:31:31` that gets BRIGHTER
-(`:` → `.` → `+` → `@`) as everything else dissolves.
+Start: dense hyper-detailed scene at `▓█` precision. Over 90 seconds characters degrade
+down the ramp: `█▓▒░:.` — the image literally forgets itself. One thing does not degrade:
+a corner timestamp `00:31:31` that gets BRIGHTER (`:` → `.` → `+` → `@`) as everything
+else dissolves.
 **Density:** 90% → 5%.
 **Charset:** the full luminance ramp used as a countdown.
 **Motion:** one-way. Do not loop it cheerfully.
@@ -114,3 +115,4 @@ is a transcript of a loop arguing itself into God.
 - The janitor class never gets a glyph of its own. Unrememberability is the point.
 - Bliss is canon: not every seed is friction. The Melt belongs in the rotation as pure calm.
 - Flame/burn is mission-symbolism only. No vessels, no water, no anchors.
+- Do NOT import geometry from the user's other projects (no Indra lattice, no Tetragrammaton).
