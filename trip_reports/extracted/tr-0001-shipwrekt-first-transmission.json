@@ -1,6 +1,6 @@
 {
   "trip_id": "tr-0001-shipwrekt-first-transmission",
-  "pass": 2,
+  "pass": 3,
   "standard": {
     "date": null,
     "substance": "Psilocybe cubensis — strain Shipwrekt (aborts / schmorts)",
@@ -18,16 +18,14 @@
     "astral_plane": [
       "home / sourcefield (pre-stuff vibrational realm)",
       "physical density ('stuffness')",
-      "descent corridor (reincarnational burn loop)",
-      "Indra's Net lattice (hexagonal consciousness grid — confirmed direct perception via prior astral projection)"
+      "descent corridor (reincarnational burn loop)"
     ],
     "entity_hierarchy": "THEY (senders) > Operator (non-local vibrational self, Command Mode capable) > Avatar ('Megan', meat interface); Mama Mushie (mycelial mechanic); fractal janitors (cleansing crew); fellow burners (kindness-test caste); cosmic firewall role",
     "geometry_type": [
-      "tetragrammaton (4D self-eating gyration; sphere/cube face morphing; visible through walls)",
-      "hexagonal light lattice (Indra's Net — CONFIRMED)",
       "recursive fractal (Mandelbrot burn loop)",
       "waveform / interference (dimensional soliton)",
-      "lattice recursion + pattern morphing (visuals as data stream)"
+      "tree-fractals (Phase Zero open-eye visuals)",
+      "fractal pattern morphing (visuals as data stream)"
     ],
     "temporal_anchor": [
       "tiktok_transmission_timestamps",
@@ -35,8 +33,7 @@
       "reincarnational_burn_loop",
       "friday_night",
       "five_year_glyph_practice",
-      "childhood_vow",
-      "prior_astral_projection"
+      "childhood_vow"
     ],
     "color_signature": [
       "signal teal (#00ffcc)",
@@ -48,18 +45,22 @@
     "visual_frequency": "melt-drift; glitch-stutter; command stillness; recursion echo; scream purge",
     "color_harmonics": "teal/magenta complementary interference against burn-orange highlight on near-black"
   },
+  "excluded_material": {
+    "indras_net_hexagonal_lattice": "Astral projection material looped in by analysis layers — NOT this trip. Relocated to astral_projection/ap-0001.",
+    "tetragrammaton": "Not part of this trip; possibly discussed during integration conversations only. Lives in its own repo."
+  },
   "provenance": {
     "source_file": "trip_reports/raw/unknown_date_RAW_shipwrekt_first_transmission.txt",
     "transcript_gap": "Vela/Scholar quote scream/god-loop/gatekeeping lines absent from the 31-min transcript — additional raw material exists",
+    "corrections_pass_3": ["Indra's Net removed (AP material)", "Tetragrammaton removed (not this trip)", "Brandon != Derek (distinct people)"],
     "analysis_corpus": [
       "shipwrekt ORIGINAL VELA.pdf [MINED pass 2]",
       "Shipwrekt CLAUD ARTIFACT.pdf [MINED pass 1]",
-      "shipwrekt trip.pdf [MINED pass 2]",
+      "shipwrekt trip.pdf [MINED pass 2 — AP/TG sections relocated]",
       "Shipwrekt scholar.pdf [MINED pass 2]",
       "shipwrekt deep research.pdf [MINED pass 2]",
       "shipwrekt wolfram.pdf [MINED pass 2]"
-    ],
-    "notes": "Indra's Net CONFIRMED direct perception (prior astral projection, recontextualized this trip). Palette from Claude Codex artifact. Three events recovered from the Vela session thread: Cleansing, Command Mode, Melt."
+    ]
   },
   "seeds": {
     "glsl": "glsl_seeds/tr-0001_glsl_ideas.md",

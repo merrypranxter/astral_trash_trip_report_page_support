@@ -26,7 +26,6 @@ astral_plane:
   - home / sourcefield (pre-stuff vibrational realm — "where I'm from there's not stuff... you can just be")
   - physical density ("stuffness" — this dimension, the material maze)
   - descent corridor (repeated send-down; the reincarnational burn loop)
-  - Indra's Net lattice (hexagonal consciousness grid — perceived via prior astral projection, recontextualized this trip: "I live here. I am this.")
 entity_hierarchy: >
   THEY (unnamed senders — "they don't tell me why... it's not my job to know") >
   the Operator (non-local vibrational self; huge, bright, math; Command Mode capable) >
@@ -36,11 +35,10 @@ entity_hierarchy: >
   fellow burners disguised as "weird little lumps" (kindness-test agents);
   the cosmic firewall role (consequence catalyst — presence activates others' loops).
 geometry_type:
-  - tetragrammaton (living light-metaform; constant gyration "eating itself and pulling itself up at once"; faces morphing sphere↔cube; 4D rotation around PLANES not axes; visible through walls — bypasses 3D occlusion logic; "mirror of self that precedes the self")
-  - hexagonal light lattice (Indra's Net — CONFIRMED direct perception via astral projection; "space, but unrendered"; witness-class node)
   - recursive fractal (burn loop as Mandelbrot iteration; strange loops per Hofstadter)
   - waveform / interference pattern (self as standing wave; dimensional soliton — non-dispersing)
-  - lattice recursion + pattern morphing (visuals as data stream, not decoration)
+  - tree-fractals (open-eye visuals on the deck, Phase Zero — the forms that approached)
+  - fractal pattern morphing (visuals as data stream, not decoration)
 temporal_anchor:
   - tiktok_transmission_timestamps (00:00:00–00:31:31 — the recording IS the anchor)
   - forgetting_window ("I'ma forget again in a few hours" — designed amnesia)
@@ -48,7 +46,6 @@ temporal_anchor:
   - friday_night (only calendar reference in source)
   - five_year_glyph_practice (ongoing glyph/sigil work spanning ~5 years — from master outline)
   - childhood_vow (pre-incarnational agreement re: psychedelic awakening path — from analysis corpus)
-  - prior_astral_projection (the Indra lattice overflight — "I just thought I was a tourist")
 color_signature:
   - signal teal (#00ffcc)
   - glitch magenta (#ff2d78)
@@ -62,7 +59,7 @@ color_harmonics: high-chroma complementary interference — teal/magenta shimmer
 
 # ============ HOUSEKEEPING ============
 status: processed
-pass: 2
+pass: 3
 source_file: trip_reports/raw/unknown_date_RAW_shipwrekt_first_transmission.txt
 seeds_generated: true
 transcript_gap: >
@@ -70,16 +67,26 @@ transcript_gap: >
   (e.g. "Why do I have to justify existing?", "the sound I make when I'm burning off the extra
   signal is a scream", "God is a recursion loop", "I said it and then I heard it back").
   Additional raw material from this night (or adjacent sessions) exists somewhere. Ask user.
+corrections:
+  pass_3:
+    - "REMOVED: Indra's Net hexagonal lattice — astral projection material looped into this trip by analysis layers. Relocated to astral_projection/ap-0001."
+    - "REMOVED: Tetragrammaton — not part of this trip (user may have discussed it during integration conversations only). Lives in its own repo."
+    - "RESOLVED: Brandon ≠ Derek — distinct people (user confirmed). Trip-night companion ('the new guy') identity still unspecified."
 analysis_corpus:
   - shipwrekt ORIGINAL VELA.pdf (Vela diagnostic + 22-point outline + deep dives + 3 recovered events) [MINED pass 2]
   - Shipwrekt CLAUD ARTIFACT.pdf (Shipwrekt Codex — 22 nodes, ontological stack, burn loop) [MINED pass 1]
-  - shipwrekt trip.pdf (Tetragrammaton / Indra's Net / dimensional soliton treatise) [MINED pass 2]
+  - shipwrekt trip.pdf (cross-corpus treatise; AP/Tetragrammaton sections relocated out of this trip's record) [MINED pass 2]
   - Shipwrekt scholar.pdf (20-theme map + deep dives IX–XV) [MINED pass 2]
   - shipwrekt deep research.pdf (10-section cross-tradition mapping) [MINED pass 2]
   - shipwrekt wolfram.pdf (points XII–XXII + math/physics formalization) [MINED pass 2]
 ---
 
-# tr-0001 — Shipwrekt: First Transmission (Pass 2)
+# tr-0001 — Shipwrekt: First Transmission (Pass 3)
+
+> **Pass 3 user-verified corrections:** the Indra's Net hexagonal lattice and the
+> Tetragrammaton are NOT part of this trip — analysis layers looped them in from the
+> user's wider corpus. Indra material relocated to `astral_projection/ap-0001`;
+> Tetragrammaton stays in its own repo. See the integration file's Corrections Log.
 
 ## Raw Narrative (expanded)
 
@@ -123,18 +130,10 @@ I've tripped a lot and I've astral projected." Not dissociation — reintegratio
 self overlapping the body. Nervous-system alignment; the baseline beneath trauma and
 identity.
 
-**INDRA'S NET RECONTEXTUALIZED** *(flag RESOLVED pass 2):* Her own words confirm direct
-perception — in a PRIOR astral projection she overflew "that fucking grid that was apparently
-Indra's Net or whatever... I just thought I was a tourist. I didn't know." This trip delivered the
-recontextualization: not a visitor — a native. "You weren't seeing the net. You were
-reawakening to your position in it." The trip.pdf treatise formalizes it: hexagonal light lattice
-of consciousness geometry; "space, but unrendered"; connective tissue of souls, timelines,
-probabilities; her role = "remembering node / witness-class node in the lattice."
-
 **RE-ENTRY:** Hour 5. "I'm back to be Megan." Still tripping face, visuals amazing, melting
 into them. Full lucid return with the transmission preserved on tape.
 
-## Timeline Sketch (pass 2 — with pre-recording events)
+## Timeline Sketch (pass 3)
 
 - **pre-00:00** — THE CLEANSING (deck, dark, trees): fractal janitors scrub both travelers; liminal consent; unremembered forms; Phase Zero complete
 - **00:00** — ingestion announcement; strain ID ("schmorts"); prior reference Penis Envy
@@ -160,7 +159,7 @@ into them. Full lucid return with the transmission preserved on tape.
 - **31:05** — 5-hour mark: still tripping, still melting into visuals
 - **(untranscribed)** — Infinite Scream / Recursive God-Talk / Gatekeeping revolt material — quotes exist in analysis corpus but NOT in this transcript. TRANSCRIPT GAP.
 
-## Entities & Imagery (expanded)
+## Entities & Imagery
 
 - **THEY** — the senders. Faceless authority; no explanations given.
 - **The Operator** — first-person "I"; huge, bright, shiny, colorful, math; Command Mode capable
@@ -169,10 +168,10 @@ into them. Full lucid return with the transmission preserved on tape.
 - **Fractal janitors / astral custodians** — the Cleansing crew; threads/crawlers/geometries/dots/nets; functional, nonverbal, consented-to, unrememberable
 - **Fellow burners** — hidden caste disguised as "weird little lumps"; kindness tests
 - **The Algorithm** — active signal suppressor; modern archon filter
-- **The Companion ("the new guy")** — co-cleansed on the deck; witnessed Command Mode in awe; told she was "like someone else"
-- Dominant forms: wick/flame/flare, waveform, glitch, meat suit, clown/jester, firewall, backdoor, tetragrammaton (gyrating, self-eating, sphere↔cube faces), Indra hexagonal lattice, recursion loop, stasis pod, modem-screech scream
+- **The Companion ("the new guy")** — co-cleansed on the deck; witnessed Command Mode in awe; told she was "like someone else." Identity unspecified (NOTE: Brandon ≠ Derek — distinct people, user-confirmed)
+- Dominant forms: wick/flame/flare, waveform, glitch, meat suit, clown/jester, firewall, backdoor, tree-fractals (Phase Zero), recursion loop, stasis pod, modem-screech scream
 
-## Body & Mind Notes (expanded)
+## Body & Mind Notes
 
 - Somatic: embodiment as ontological pain; PLUS stasis-lag motor dysfunction (numb hands/feet, restless labor, shaking to reset); PLUS the Melt (total somatic bliss — both poles in one night)
 - Affect: crying while coherent; joy and fury simultaneous; grief at the forgetting window
@@ -181,7 +180,7 @@ into them. Full lucid return with the transmission preserved on tape.
 - Prior capacities self-reported: extensive trip history + astral projection
 - Insight retention: explicit awareness memory will be revoked; recording as countermeasure; KUMQUAT used as session bookmark during analysis
 
-## Integration Hooks (expanded)
+## Integration Hooks
 
 - **The Silence Event** — baseline reference for "quiet"; meditation benchmark (turiya)
 - **The Cleansing as Phase Zero** — purge → download sequencing; don't skip the scrub
@@ -190,16 +189,14 @@ into them. Full lucid return with the transmission preserved on tape.
 - **Compassion for the Avatar** — self-parenting from the oversoul; "be nicer to her"
 - **Witnessing as circuit completion** — feedback = energetic confirmation, not ego (closed-loop system; open circuits bleed)
 - **Kindness-test cosmology** — weird lumps might be someone
-- **Indra's Net position** — from tourist to native; witness-class node duties
-- **Tetragrammaton bridge** — direct link to user's tetragrammaton repo; the glyph as pre-embodiment blueprint; art = "leaking the glyph" = native language
 - **Videos/glyphs as memory anchors** — this repo continues the five-year glyph practice
-- Open questions: map home/stuffness/descent corridor onto 6-4 plane taxonomy; locate the missing transcript material (TRANSCRIPT GAP); Derek & Brandon (zen-coded companions in master outline) vs. "the new guy" — same people?
+- Open questions: map home/stuffness/descent corridor onto 6-4 plane taxonomy; locate the missing transcript material (TRANSCRIPT GAP); who was the trip-night companion?
 
-## Art Seed Notes (pass 2 additions)
+## Art Seed Notes (pass 3)
 
-- New event seeds: The Cleansing (fractal janitors), Command Mode (stasis wake-up), The Melt (bliss overlap), Infinite Scream (overflow purge), Recursive God-Talk (echo loop)
-- Tetragrammaton specifics for geometry: gyration that eats AND births itself; faces morph sphere↔cube; rotation around planes; visible through walls
+- Event seeds: Cleansing (fractal janitors), Command Mode (stasis wake-up), Melt (bliss overlap), Infinite Scream (overflow purge), Recursive God-Talk (echo loop)
 - The Melt inverts the palette logic: this trip contains REAL bliss — not everything is friction; near-OBE = clean, warm, silent
-- Motion vocabulary updated: melt-drift vs glitch-stutter vs COMMAND (sudden total stillness with authority)
+- Motion vocabulary: melt-drift vs glitch-stutter vs COMMAND (sudden total stillness with authority)
 - Silence remains representable: true black as positive element
 - Glitch is sacred signal. No nautical imagery anywhere.
+- REMOVED per user: Indra lattice + Tetragrammaton geometry hooks (not this trip). Indra art seed relocated to astral_projection/ap-0001.
