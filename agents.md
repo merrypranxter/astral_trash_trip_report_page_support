@@ -1,4 +1,4 @@
-# AGENTS.md â€” Strange, Artistic, Functional Web Systems
+# AGENTS.md — Strange, Artistic, Functional Web Systems
 
 ## Scope
 
@@ -98,7 +98,7 @@ Implement **strange but sane** unless:
 - the existing codebase already has an architecture that should be preserved;
 - the strange option increases complexity without producing meaningful function, art, or insight.
 
-Strangeness must live in the model, structure, behavior, data flow, mathematics, or interactionâ€”not only in eccentric names.
+Strangeness must live in the model, structure, behavior, data flow, mathematics, or interaction—not only in eccentric names.
 
 ### Entropy constraints
 
@@ -130,12 +130,12 @@ Do not copy the organism's surface. Extract its behavior.
 
 Examples:
 
-- A forest may mean layered hierarchy, branching paths, succession, and competition for attentionâ€”not tree illustrations.
-- A reef may mean dense modular neighborhoods, niches, currents, and symbiosisâ€”not coral wallpaper.
-- A nervous system may mean sensing, signal routing, attention, reflex, and fading memoryâ€”not glowing node lines.
-- A fungal network may mean hidden relationship metadata producing visible related-content fruitingâ€”not mushroom icons.
-- A body may mean interoperating subsystems, circulation, boundaries, repair, and immune responseâ€”not anatomical decoration.
-- Weather may mean ambient state, thresholds, fronts, and gradual changeâ€”not looping cloud GIFs.
+- A forest may mean layered hierarchy, branching paths, succession, and competition for attention—not tree illustrations.
+- A reef may mean dense modular neighborhoods, niches, currents, and symbiosis—not coral wallpaper.
+- A nervous system may mean sensing, signal routing, attention, reflex, and fading memory—not glowing node lines.
+- A fungal network may mean hidden relationship metadata producing visible related-content fruiting—not mushroom icons.
+- A body may mean interoperating subsystems, circulation, boundaries, repair, and immune response—not anatomical decoration.
+- Weather may mean ambient state, thresholds, fronts, and gradual change—not looping cloud GIFs.
 
 ### Biological function questions
 
@@ -294,17 +294,17 @@ Use relationship labels such as:
 
 Do not collapse all relationships into an untyped `related` cloud.
 
-Do not claim â€œyou arrived fromâ€ unless the route state actually proves it. Otherwise use language such as â€œpossible entrances,â€ â€œpages linking here,â€ or â€œnearby paths.â€
+Do not claim “you arrived from” unless the route state actually proves it. Otherwise use language such as “possible entrances,” “pages linking here,” or “nearby paths.”
 
 Graph or constellation navigation must have a complete semantic list or tree containing the same destinations.
 
-## System 6: Tactile Webcraft â€” Psychedelic and Situational Material Intelligence
+## System 6: Tactile Webcraft — Psychedelic and Situational Material Intelligence
 
 The interface must feel materially specific, but **do not default to moss, bark, wood, clay, paper, beige earth, or generic cottagecore texture**.
 
 The material must come from the subject, emotional tone, visual concept, and surrounding section.
 
-The goal is not â€œmake it look natural.â€ The goal is â€œmake it feel like it is made of something.â€ That something may be organic, mineral, metallic, optical, liquid, biological, synthetic, dreamlike, cosmic, microscopic, impossible, or hybrid.
+The goal is not “make it look natural.” The goal is “make it feel like it is made of something.” That something may be organic, mineral, metallic, optical, liquid, biological, synthetic, dreamlike, cosmic, microscopic, impossible, or hybrid.
 
 ### Material selection protocol
 
@@ -406,7 +406,7 @@ Translate mineral structure into cleavage planes, crystal habits, veins, facets,
 - flowing pearlescent ink;
 - reaction-diffusion liquid skins.
 
-A fractal-ocean section may use recursive wave geometry, caustic highlights, depth-dependent color, foam-like glyphs, and slow refraction. Do not replace â€œoceanâ€ with a blue gradient and call it tactile.
+A fractal-ocean section may use recursive wave geometry, caustic highlights, depth-dependent color, foam-like glyphs, and slow refraction. Do not replace “ocean” with a blue gradient and call it tactile.
 
 #### Microscopic biological and diatom-like
 
@@ -443,7 +443,7 @@ Use microstructure, translucency, repeated cellular boundaries, diffusion, pores
 - silk;
 - organza;
 - holographic fabric;
-- iridescent lamÃ©;
+- iridescent lamé;
 - chenille;
 - tufted fibers;
 - translucent gauze;
@@ -483,7 +483,7 @@ Use clarity, thickness, edge highlights, internal inclusions, refraction, causti
 - holographic terminal film;
 - pixel crystal;
 - ASCII sediment;
-- generative moirÃ©;
+- generative moiré;
 - shader-born matter with no real-world equivalent.
 
 Use signal behavior when it belongs to the content. Do not apply generic Matrix rain.
@@ -901,7 +901,7 @@ Suitable preferences include:
 - Wrap reads, parsing, writes, and removal in failure handling.
 - Keep the complete default interface functional when storage is missing, blocked, corrupt, stale, or full.
 - Provide a visible immediate reset.
-- Ask contextually before persistence when appropriate: â€œRemember this layout on this device.â€
+- Ask contextually before persistence when appropriate: “Remember this layout on this device.”
 - Do not claim the site learned, sensed, understood, or predicted the visitor.
 
 Never store:
@@ -952,10 +952,10 @@ Use a layer budget:
 
 - **4/10:** Production-facing structure with restrained material and art.
 - **6/10:** Distinct atmosphere, unusual layout, and bounded interactions.
-- **8/10 â€” default for artistic projects:** Strong material physics, topic-specific shader or glyph systems, living navigation, and layered composition.
+- **8/10 — default for artistic projects:** Strong material physics, topic-specific shader or glyph systems, living navigation, and layered composition.
 - **10/10:** The website becomes a coherent navigable artwork while every semantic fallback remains intact.
 
-Increase weirdness through association, structure, material specificity, mathematics, and behaviorâ€”not merely through saturation, blur, particles, mushrooms, or animation.
+Increase weirdness through association, structure, material specificity, mathematics, and behavior—not merely through saturation, blur, particles, mushrooms, or animation.
 
 ## Implementation Discipline
 
@@ -1032,7 +1032,7 @@ Before delivery, confirm:
 - the layout does not collapse into a generic hero and equal-card grid;
 - primary navigation, Search, current location, direct routes, and return paths remain obvious;
 - materials are situational and content-derived rather than automatically wood, moss, clay, or paper;
-- psychedelic material behavior appears through light, depth, edge, deformation, refraction, weave, microstructure, or motionâ€”not only color;
+- psychedelic material behavior appears through light, depth, edge, deformation, refraction, weave, microstructure, or motion—not only color;
 - every shader and glyph field interprets a specific topic;
 - every topic-specific alphabet is coherent and tested in the actual font;
 - body text and controls remain sharp above tactile, shader, glyph, rot, and haunted layers;
