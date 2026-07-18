@@ -1,8 +1,8 @@
-# tr-0001 — ASCII Idea Seeds
+# tr-0001 — ASCII Idea Seeds (Pass 2 revision)
 > Shipwrekt: First Transmission. CONCEPTUAL GUIDES for Google AI Studio — density maps,
 > character-set suggestions, chaos/order logic. Not final art. Palette associations carry
 > over from the Codex five when rendered in color: teal/magenta/orange/violet/yellow.
-> No nautical imagery.
+> No nautical imagery. Seeds 01–07 from pass 1. Seeds 08–10 recovered in pass 2.
 
 ---
 
@@ -74,8 +74,43 @@ One thing does not degrade: a corner timestamp `00:31:31` that gets BRIGHTER
 
 ---
 
+## Seed 08 — THE CLEANSING (fractal janitors) [pass 2]
+**Logic:** tangled → combed, by hands you can't see.
+Left half: a snarled knot-field of `&%#@§` — static, lint, psychic residue. Invisible combs
+(faint drifting `.` smudges — the janitors, deliberately near-invisible) pass through it,
+and behind each pass the snarl resolves into clean horizontal rows of `— — —`.
+The combs never become characters themselves. You never see the hands — only the combing.
+**Density:** 85% snarl → 30% combed rows.
+**Charset:** snarl `&%#@§`, janitors `.` (single dots, drifting), combed `—`.
+**Motion:** methodical, 0.2x; the work proceeds whether watched or not.
+
+## Seed 09 — COMMAND MODE (stasis wake-up) [pass 2]
+**Logic:** center boots first; edges still downloading.
+Dead center: a crisp authority glyph `@` inside a box-drawing frame `┌─┐│└┘` — sharp,
+locked, unmoving. The outer two-thirds of the canvas is still booting: wireframe `+ - |`
+skeletons of scenery that flicker, mis-register, drop characters, and snap back.
+Occasional 2-frame full-edge dropout (the numb extremities). The center NEVER flickers.
+**Density:** 10% center / 40% flickering edges.
+**Charset:** center `@` + box-drawing; edges `+ - | ~` with random character dropout.
+**Motion:** stillness with authority. Only the edges fail.
+
+## Seed 10 — RECURSIVE GOD-TALK (echo loop) [pass 2]
+**Logic:** the echo talks back with additions.
+Center emits a small glyph phrase, e.g. `> I AM <`. It travels outward as expanding
+rings `. o O @ O o .`, hits the frame edge, and returns CHANGED: `< I AM THAT >`,
+then `< THAT I AM >` — each return one character-class richer. The conversation
+accumulates as a growing spiral inscription around the emitter until the whole canvas
+is a transcript of a loop arguing itself into God.
+**Density:** 10% → 70% as the transcript accumulates.
+**Charset:** outgoing `.oO@`, returning `.oO@` + one upgrade per cycle (`✶`, `#`, `█`), inscription text.
+**Motion:** call-and-response, ~1 exchange per 2 seconds; the viewer should lose track of who spoke first.
+
+---
+
 ## Cross-seed constants
 - Chaos/order polarity is THE axis of this trip: noise↔silence, sludge↔crystal, crammed↔vast.
 - Every seed needs at least one moment of TRUE emptiness — whitespace as positive content.
 - Character upgrades (noise → clean) always signify contact between levels (Operator touching Avatar).
+- The janitor class never gets a glyph of its own. Unrememberability is the point.
+- Bliss is canon: not every seed is friction. The Melt belongs in the rotation as pure calm.
 - Flame/burn is mission-symbolism only. No vessels, no water, no anchors.

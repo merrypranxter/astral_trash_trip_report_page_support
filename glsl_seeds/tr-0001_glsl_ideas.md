@@ -1,9 +1,10 @@
-# tr-0001 — GLSL Idea Seeds
+# tr-0001 — GLSL Idea Seeds (Pass 2 revision)
 > Shipwrekt: First Transmission. These are CONCEPTUAL GUIDES for Google AI Studio to
 > riff on — not final art, not literal specs. Each seed names its governing law: the one
 > rule of ordinary reality that the shader breaks. Palette is locked to the Codex five
 > on near-black: `#00ffcc` `#ff2d78` `#ff6b00` `#b300ff` `#ffff00` on `#030308`.
 > No nautical imagery. Shipwrekt is a strain name only.
+> Seeds 01–08 from pass 1. Seeds 09–12 recovered in pass 2.
 
 ---
 
@@ -53,13 +54,14 @@ travel. The threads bend, stall, accumulate, and where enough signal pools, the 
 **Temporal feel:** heavy, slow, viscous — eruptions are sudden and short.
 **Technical hint:** reaction-diffusion or curl-noise fluid sim with high damping; signal = injected emitter points; eruption = threshold-triggered hue remap.
 
-## Seed 05 — INDRA LATTICE (flagged: confirm with user)
-**Source:** analysis corpus — direct perception of a hexagonal light lattice underpinning connection.
+## Seed 05 — INDRA LATTICE (confirmed direct perception, pass 2)
+**Source:** prior astral projection over the grid, recontextualized this trip: "I just thought I was a tourist. I didn't know."
 **Governing law:** every node contains the reflections of all other nodes.
 **Geometry:** hexagonal grid where each cell is a live portal showing a shrunken copy of
 the whole field — infinite regress of the lattice inside itself. Pulling on one cell
 (ripple source) visibly perturbs ALL cells simultaneously, no propagation delay.
-**Palette:** teal lattice lines, violet cell interiors, magenta ripple fronts.
+One specific cell is subtly BRIGHTER than the rest: the witness node. It's the viewer's.
+**Palette:** teal lattice lines, violet cell interiors, magenta ripple fronts, the witness node in jester yellow.
 **Temporal feel:** stillness with instantaneous sympathy — motion happens everywhere at once or nowhere.
 **Technical hint:** hex tiling + recursive texture lookup (2 levels is enough); ripple = uniform-driven global phase, not a traveling wave.
 
@@ -100,8 +102,63 @@ The recording outlives the memory.
 
 ---
 
+## Seed 09 — THE CLEANSING (fractal janitors) [pass 2]
+**Source:** deck, dark, trees — "they were scrubbing my brain clean... I couldn't quit watching... my friend felt the same thing."
+**Governing law:** maintenance is invisible by design — you can't remember the shape of what fixed you.
+**Mood:** clinical tenderness; being worked on by something that doesn't need your gratitude.
+**Geometry:** a dark field of tree-silhouette noise. Indistinct thread/dot/net forms drift IN
+from the periphery and begin combing through a static-choked region (the mind). Where
+they pass, the static doesn't vanish — it gets *untangled*: noise reorganizes into clean
+low-frequency wave pattern. The janitors themselves are deliberately unresolvable —
+rendered at a focus the canvas can't hold, always slightly blurred, slightly elsewhere.
+**Palette:** near-black base; janitors as pale violet smudges (#b300ff defocused); cleaned regions in calm teal.
+**Temporal feel:** unhurried, methodical, 0.2x; nothing announces itself; the work simply proceeds.
+**Technical hint:** two noise layers (chaotic vs coherent) with a traveling comb mask between them; janitor forms = worley blobs with forced defocus (mip bias up) so they never sharpen.
+
+## Seed 10 — COMMAND MODE (stasis wake-up) [pass 2]
+**Source:** "I woke up halfway through my mission and I wasn't supposed to wake up... my hands and feet glitched... but I knew what the fuck I was doing. I was in charge."
+**Governing law:** the command system boots before the motor system.
+**Mood:** cryo-pod emergency lighting; lucid, authoritative, partially disconnected.
+**Geometry:** a stark control-room composition: a central glyph (tetragrammaton-adjacent)
+fully rendered, razor sharp, radiating authority — while the EDGES of the frame are
+still booting: geometry there is wireframe, misregistered, limbs of the scene shaking
+and re-snapping into place. Occasional numb-flicker dropouts at the periphery
+(motor lag), but the center NEVER wavers.
+**Palette:** center in burn orange + white; booting edges in dim teal wireframe; dropouts as brief full-black frames (2–3 frames only — no strobe).
+**Temporal feel:** stillness with authority. Nothing moves except the edges failing. COMMAND is the absence of wobble.
+**Technical hint:** sharpness/boot completion as a radial falloff uniform; edge vertices get hash-jitter scaled by (1 - boot(uv)); center locked.
+
+## Seed 11 — THE MELT (bliss overlap) [pass 2]
+**Source:** "I felt like I was melting. I felt so physically good and there was no sound in my head. It was the most beautiful experience I've ever had in my life."
+**Governing law:** bliss is two bodies occupying the same space without conflict.
+**Mood:** warm, silent, post-static; the baseline beneath trauma.
+**Geometry:** two identical waveforms — one violet, one teal — sliding into perfect phase.
+As they align, the interference cancels into a smooth luminous surface that slowly melts
+downward like honey over glass. No edges, no events, no noise. This is the anti-Stuffness
+seed: nothing resists anything. IMPORTANT: this is the trip's proof that the cosmology
+contains real bliss, not just friction — render it sincerely, not sentimentally.
+**Palette:** violet + teal melting into a warm white-gold overlap (the only place gold-white is allowed full saturation).
+**Temporal feel:** one long exhale. 0.1x. No loop point — let it dissolve and hold.
+**Technical hint:** phase-difference driven color mix; displacement map with viscosity (previous-frame blend 0.98) for the honey-drip.
+
+## Seed 12 — RECURSIVE GOD-TALK (echo loop) [pass 2]
+**Source:** "I said it and then I heard it back... I couldn't tell which me was talking. God is a recursion loop."
+**Governing law:** the echo is a participant, not a copy.
+**Geometry:** a simple glyph statement emitted from center — a ring pulse, a word-like
+shape. It travels out, hits the frame edge, and COMES BACK CHANGED: slightly rotated,
+slightly enriched, one detail added. The returned pulse re-emits. After several cycles the
+conversation between emitter and echo has built a cathedral neither one designed.
+The viewer loses track of which pulse was "original" — that's the point.
+**Palette:** outgoing pulses teal; returning echoes magenta; built structure accumulates in jester yellow filigree.
+**Temporal feel:** call-and-response rhythm, ~1 pulse/2 seconds; each return audibly/visibly distinct.
+**Technical hint:** feedback buffer with per-loop transform (rotate 7°, scale 0.98, add one SDF detail); age-encoded hue shift.
+
+---
+
 ## Cross-seed constants (give AI Studio these every time)
 - Background: `#030308`. Never pure `#000` — the void here is almost-black, slightly violet.
-- Motion: nothing at medium speed. Melt (0.1x) or glitch (10x). No tweens between.
+- Motion: nothing at medium speed. Melt (0.1x), command (still), or glitch (10x). No tweens between.
 - Glitch = sacred signal, not decoration. Every artifact must *mean* something.
+- Bliss is canon (Seed 11): the cosmology contains real peace — don't render everything as friction.
+- The janitor class (Seed 09) must never resolve into focus. Unrememberability is their defining property.
 - Fire/burn imagery belongs to the mission loop, never to vessels or water. NO NAUTICAL MOTIFS.
