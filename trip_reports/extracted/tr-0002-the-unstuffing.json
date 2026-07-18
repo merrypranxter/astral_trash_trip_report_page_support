@@ -1,0 +1,52 @@
+{
+  "trip_id": "tr-0002-the-unstuffing",
+  "pass": 1,
+  "report_type": "recurring_pattern",
+  "standard": {
+    "date": null,
+    "substance": "psilocybin mushrooms (various; pattern across many sessions)",
+    "dose": null,
+    "route": "oral",
+    "setting": "home, alone, end of trip — shower with exfoliating gloves + Dr. Bronner's peppermint soap; water noise + closed door = audio isolation",
+    "duration_hours": null,
+    "intensity": null,
+    "body_load": null,
+    "comeup_texture": null,
+    "peak_texture": null,
+    "afterglow_texture": "sensory isolation; background loop 'I want out'; inquiry; ritual scrubbing of dense matter off the soul"
+  },
+  "weird": {
+    "astral_plane": ["physical density (stuffness — addressed by the ritual)", "home / sourcefield (the 'out')"],
+    "entity_hierarchy": "none — solo self-working; the Operator acts through the Avatar's own hands",
+    "geometry_type": ["water column (one-way descent)", "lather/foam (removed matter made visible)", "thought loop (recursive background process)", "drain vortex (one-way exit)"],
+    "temporal_anchor": ["end_of_trip_window", "recurring_pattern (~60% home-solo)", "shower_duration (bounded container)"],
+    "color_signature": ["peppermint (scent-led, sharp, cold, clarifying)"],
+    "visual_frequency": "low-visual; somatic + cognitive, water-immersed",
+    "color_harmonics": null
+  },
+  "tetragrammaton_association": {
+    "declared_by": "user",
+    "strength": "partial — often preceded by watching the Tetragrammaton, but occurs independently",
+    "note": "first assumed causal; later recognized as independent"
+  },
+  "cross_links": {
+    "tr-0001": "embodied mirror of the Cleansing (fractal janitors scrubbed her; here she scrubs herself); stuffness cosmology given a standing practice; 'I want out' = the burn-loop as background process"
+  },
+  "open_questions": [
+    "felt completion state vs. shower simply ending",
+    "does the peppermint matter",
+    "where does the scrubbed-off stuff go",
+    "what does the ~60% correlate with",
+    "does pre-watching the Tetragrammaton change the ritual's texture"
+  ],
+  "provenance": {
+    "source": "user dictation (2026-07-18); no prior documentation",
+    "notes": "recurring pattern report, not a single dated session"
+  },
+  "seeds": {
+    "glsl": "glsl_seeds/tr-0002_glsl_ideas.md",
+    "ascii": "ascii_seeds/tr-0002_ascii_ideas.md"
+  },
+  "status": "processed",
+  "seeds_generated": true
+}
