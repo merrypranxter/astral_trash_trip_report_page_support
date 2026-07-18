@@ -1,0 +1,49 @@
+# WEIRD SCHEMA — astral_trash_trip_report_page_support
+# The grimoire layer. Cross-links to the user's other taxonomies
+# (astral planes, geometry types, temporal anchors, color systems).
+# Lives in the same frontmatter as standard_schema — toggle or overlay on site.
+
+schema_name: weird
+version: 1.0.0
+description: Esoteric/cartographic metadata for a single trip report.
+
+fields:
+  astral_plane:
+    type: string_or_array
+    notes: >
+      Plane taxonomy per user's theosophy repos (6-4 plane system,
+      Etheric Quadrant, etc.). Reference the plane + any sub-layer.
+      Examples: "plane_4_etheric", ["plane_6", "descent_corridor"]
+  entity_hierarchy:
+    type: string_or_array
+    notes: >
+      Who/what was encountered and their apparent rank, role, or
+      organization. Free text but hierarchical where possible.
+      Examples: "mantis_overseer > worker_swarm", "machine_elves (peer class)"
+  geometry_type:
+    type: string_or_array
+    notes: >
+      Dominant visual geometry. Vocabulary seeded from user's shader work:
+      hexagonal, fractal, hyperbolic, moire, kanizsa, reaction_diffusion,
+      crystalline, liquid, voxel, impossible_escher, kaleidoscopic, other.
+  temporal_anchor:
+    type: string_or_array
+    notes: >
+      User's time-signature motif — the moment/era the experience
+      anchored to. Examples: "1347_AD_bubonic", "10^-43_s_post_genesis",
+      "1972_shag_carpet_eternity". Format loose; keep the underscore style.
+  color_signature:
+    type: array
+    notes: >
+      Descriptive colors, not hex — though hex welcome in parens.
+      Examples: ["bruise-violet", "holo teal shift (#00CED1)", "sodium-lamp amber"]
+  visual_frequency:
+    type: string
+    notes: >
+      Rhythm/refresh of the visual field. Slow pulse, strobing,
+      static-hum, breathing, drift. Free text.
+  color_harmonics:
+    type: string
+    notes: >
+      How colors related — clashing, complementary shimmer, single-hue
+      saturation field, oil-slick interference, etc.

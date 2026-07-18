@@ -1,0 +1,49 @@
+# STANDARD SCHEMA — astral_trash_trip_report_page_support
+# The sober layer. What a normal psychonaut wiki would ask.
+# All fields optional in practice — estimate what you remember, leave blank what you don't.
+
+schema_name: standard
+version: 1.0.0
+description: Baseline structured metadata for a single trip report.
+
+fields:
+  trip_id:
+    type: string
+    format: slug
+    example: tr-0001-neon-cathedral
+    notes: Assigned at processing time. Sequential slug, unique per report.
+  date:
+    type: string
+    notes: YYYY-MM-DD if known, approximate string if not ("summer 2019" is fine).
+  substance:
+    type: string
+    notes: Primary substance. Combos go in body; this field is the headline.
+  dose:
+    type: string
+    notes: Free text. Estimates welcome. Blank if unknown.
+  route:
+    type: string
+    notes: oral / insufflated / smoked / sublingual / IM / IV / etc.
+  setting:
+    type: string
+    notes: Where + who with, compressed. "solo, dark bedroom", "festival, crew of 4".
+  duration_hours:
+    type: number_or_string
+    notes: Total arc. Estimate fine.
+  intensity:
+    type: integer
+    range: 1-10
+    notes: Peak subjective intensity.
+  body_load:
+    type: integer
+    range: 1-10
+    notes: Physical weight — nausea, tension, tremor, exhaustion.
+  comeup_texture:
+    type: string
+    notes: Free-text sensory signature of the onset.
+  peak_texture:
+    type: string
+    notes: Free-text sensory signature of the peak.
+  afterglow_texture:
+    type: string
+    notes: Free-text sensory signature of the tail / next day.

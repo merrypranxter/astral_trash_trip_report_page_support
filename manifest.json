@@ -1,0 +1,34 @@
+{
+  "project": "astral_trash_trip_report_page_support",
+  "owner": "merrypranxter",
+  "alias": "astraltrash",
+  "purpose": "Structured trip-report corpus feeding generative GLSL + ASCII art via Google AI Studio. Grimoire architecture: dual-schema metadata (Standard / Weird) per trip.",
+  "version": "0.1.0",
+  "generated": "2026-07-18",
+  "schemas": {
+    "standard": "schemas/standard_schema.yaml",
+    "weird": "schemas/weird_schema.yaml"
+  },
+  "templates": {
+    "trip": "templates/trip_template.md",
+    "integration": "templates/integration_template.md"
+  },
+  "directories": {
+    "raw": "trip_reports/raw/",
+    "processed": "trip_reports/processed/",
+    "extracted": "trip_reports/extracted/",
+    "integration": "trip_reports/integration/",
+    "glsl_seeds": "glsl_seeds/",
+    "ascii_seeds": "ascii_seeds/"
+  },
+  "trips": [],
+  "extracted_files": {
+    "csv": null,
+    "json_consolidated": null
+  },
+  "ingestion_notes": {
+    "preferred_format": "processed markdown with YAML frontmatter, or consolidated JSON when generated",
+    "seed_policy": "glsl_seeds and ascii_seeds are conceptual guides for AI Studio to riff on — not final art to copy",
+    "metadata_policy": "user-estimated recall; blanks are intentional and must be preserved"
+  }
+}
