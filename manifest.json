@@ -2,8 +2,8 @@
   "project": "astral_trash_trip_report_page_support",
   "owner": "merrypranxter",
   "alias": "astraltrash",
-  "purpose": "Structured trip-report corpus feeding generative GLSL + ASCII art via Google AI Studio. Grimoire architecture: dual-schema metadata (Standard / Weird) per trip.",
-  "version": "0.3.0",
+  "purpose": "Structured trip-report corpus feeding generative GLSL + ASCII art via Google AI Studio. Grimoire architecture: dual-schema metadata (Standard / Weird) per trip. Astral projection reports live in their own folder.",
+  "version": "0.4.0",
   "generated": "2026-07-18",
   "schemas": {
     "standard": "schemas/standard_schema.yaml",
@@ -19,7 +19,8 @@
     "extracted": "trip_reports/extracted/",
     "integration": "trip_reports/integration/",
     "glsl_seeds": "glsl_seeds/",
-    "ascii_seeds": "ascii_seeds/"
+    "ascii_seeds": "ascii_seeds/",
+    "astral_projection": "astral_projection/"
   },
   "trips": [
     {
@@ -27,7 +28,7 @@
       "title": "Shipwrekt: First Transmission",
       "substance": "Psilocybe cubensis — Shipwrekt strain",
       "dose": "3 g",
-      "status": "processed (pass 2 complete)",
+      "status": "processed (pass 3, user-corrected)",
       "files": {
         "raw": "trip_reports/raw/unknown_date_RAW_shipwrekt_first_transmission.txt",
         "processed": "trip_reports/processed/tr-0001-shipwrekt-first-transmission.md",
@@ -39,15 +40,28 @@
       },
       "key_signatures": {
         "events": ["The Cleansing", "The Silence Event", "The Transmission", "Command Mode", "The Melt", "Re-entry"],
-        "geometry": ["tetragrammaton", "Indra hexagonal lattice (confirmed)", "recursive fractal", "waveform/soliton"],
+        "geometry": ["recursive fractal", "waveform/soliton", "tree-fractals", "pattern morphing"],
         "palette": ["#00ffcc", "#ff2d78", "#ff6b00", "#b300ff", "#ffff00"],
         "anchors": ["tiktok_transmission_timestamps", "forgetting_window", "reincarnational_burn_loop", "five_year_glyph_practice", "childhood_vow"]
       },
+      "corrections_pass_3": [
+        "Indra's Net removed — AP material, relocated to astral_projection/ap-0001",
+        "Tetragrammaton removed — not this trip",
+        "Brandon != Derek confirmed"
+      ],
       "open_questions": [
         "TRANSCRIPT GAP: scream/god-loop/gatekeeping source material missing",
-        "Derek & Brandon vs 'the new guy'",
+        "trip-night companion identity",
         "home/stuffness/descent corridor unmapped onto 6-4 plane taxonomy"
       ]
+    }
+  ],
+  "astral_projection": [
+    {
+      "ap_id": "ap-0001-indras-net-overflight",
+      "title": "Indra's Net Overflight",
+      "status": "stub (recovered material — awaiting user's own report)",
+      "file": "astral_projection/ap-0001-indras-net-overflight.md"
     }
   ],
   "extracted_files": {
@@ -58,6 +72,7 @@
     "preferred_format": "processed markdown with YAML frontmatter, or consolidated JSON when generated",
     "seed_policy": "glsl_seeds and ascii_seeds are conceptual guides for AI Studio to riff on — not final art to copy",
     "metadata_policy": "user-estimated recall; blanks are intentional and must be preserved",
-    "imagery_policy": "strain names are labels only — no literal imagery derived from them (no nautical motifs for Shipwrekt)"
+    "imagery_policy": "strain names are labels only — no literal imagery derived from them (no nautical motifs for Shipwrekt)",
+    "contamination_policy": "material not present in RAW or user-RECOVERED sources requires explicit user confirmation before canonization; cross-corpus loop-ins get logged in the integration Corrections Log, not silently deleted"
   }
 }
