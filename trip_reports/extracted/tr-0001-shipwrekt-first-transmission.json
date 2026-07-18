@@ -1,0 +1,63 @@
+{
+  "trip_id": "tr-0001-shipwrekt-first-transmission",
+  "standard": {
+    "date": null,
+    "substance": "Psilocybe cubensis — strain Shipwrekt (aborts / schmorts)",
+    "dose": "3 g",
+    "route": "oral",
+    "setting": "home, with companion; self-recorded as TikTok video transmissions",
+    "duration_hours": "5+",
+    "intensity": null,
+    "body_load": null,
+    "comeup_texture": "fast, euphoric, then abrupt total inner silence",
+    "peak_texture": "oversoul remembrance; Operator/Avatar third-person split; crying but coherent; time-stupidity",
+    "afterglow_texture": "gratitude, exhaustion; re-entry as 'Megan' at hour 5; visuals still strong, melting into them"
+  },
+  "weird": {
+    "astral_plane": [
+      "home / sourcefield (pre-stuff vibrational realm)",
+      "physical density ('stuffness')",
+      "descent corridor (reincarnational burn loop)"
+    ],
+    "entity_hierarchy": "THEY (senders) > Operator (non-local vibrational self) > Avatar ('Megan', meat interface); Mama Mushie (backdoor mechanic); fellow burners disguised as weird lumps; cosmic firewall role",
+    "geometry_type": [
+      "hexagonal light lattice (Indra's Net)",
+      "recursive fractal (Mandelbrot burn loop)",
+      "waveform / interference pattern",
+      "tetragrammaton living light-geometry"
+    ],
+    "temporal_anchor": [
+      "tiktok_transmission_timestamps",
+      "forgetting_window",
+      "reincarnational_burn_loop",
+      "friday_night"
+    ],
+    "color_signature": [
+      "signal teal (#00ffcc)",
+      "glitch magenta (#ff2d78)",
+      "burn orange (#ff6b00)",
+      "void violet (#b300ff)",
+      "jester yellow (#ffff00)"
+    ],
+    "visual_frequency": "melt-drift punctuated by glitch-stutter; packet-drop word slippage",
+    "color_harmonics": "teal/magenta complementary interference against burn-orange highlight on near-black"
+  },
+  "provenance": {
+    "source_file": "trip_reports/raw/unknown_date_RAW_shipwrekt_first_transmission.txt",
+    "analysis_corpus": [
+      "shipwrekt ORIGINAL VELA.pdf",
+      "Shipwrekt CLAUD ARTIFACT.pdf",
+      "shipwrekt trip.pdf",
+      "Shipwrekt scholar.pdf",
+      "shipwrekt deep research.pdf",
+      "shipwrekt wolfram.pdf (unread this pass)"
+    ],
+    "notes": "Indra's Net hexagonal lattice and tetragrammaton geometry flagged from analysis corpus — pending user confirmation as direct perception. Palette derived from Claude Codex artifact."
+  },
+  "seeds": {
+    "glsl": "glsl_seeds/tr-0001_glsl_ideas.md",
+    "ascii": "ascii_seeds/tr-0001_ascii_ideas.md"
+  },
+  "status": "processed",
+  "seeds_generated": true
+}
