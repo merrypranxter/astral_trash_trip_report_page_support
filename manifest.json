@@ -3,7 +3,7 @@
   "owner": "merrypranxter",
   "alias": "astraltrash",
   "purpose": "Structured trip-report corpus feeding generative GLSL + ASCII art via Google AI Studio. Grimoire architecture: dual-schema metadata (Standard / Weird) per trip.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "generated": "2026-07-18",
   "schemas": {
     "standard": "schemas/standard_schema.yaml",
@@ -21,14 +21,36 @@
     "glsl_seeds": "glsl_seeds/",
     "ascii_seeds": "ascii_seeds/"
   },
-  "trips": [],
+  "trips": [
+    {
+      "trip_id": "tr-0001-shipwrekt-first-transmission",
+      "title": "Shipwrekt: First Transmission",
+      "substance": "Psilocybe cubensis — Shipwrekt strain",
+      "dose": "3 g",
+      "status": "processed",
+      "files": {
+        "raw": "trip_reports/raw/unknown_date_RAW_shipwrekt_first_transmission.txt",
+        "processed": "trip_reports/processed/tr-0001-shipwrekt-first-transmission.md",
+        "json": "trip_reports/extracted/tr-0001-shipwrekt-first-transmission.json",
+        "integration": "trip_reports/integration/tr-0001_integration.md",
+        "glsl_seed": "glsl_seeds/tr-0001_glsl_ideas.md",
+        "ascii_seed": "ascii_seeds/tr-0001_ascii_ideas.md"
+      },
+      "key_signatures": {
+        "geometry": ["hexagonal lattice", "recursive fractal", "waveform/interference", "tetragrammaton"],
+        "palette": ["#00ffcc", "#ff2d78", "#ff6b00", "#b300ff", "#ffff00"],
+        "anchors": ["tiktok_transmission_timestamps", "forgetting_window", "reincarnational_burn_loop"]
+      }
+    }
+  ],
   "extracted_files": {
-    "csv": null,
+    "csv": "trip_reports/extracted/trips.csv",
     "json_consolidated": null
   },
   "ingestion_notes": {
     "preferred_format": "processed markdown with YAML frontmatter, or consolidated JSON when generated",
     "seed_policy": "glsl_seeds and ascii_seeds are conceptual guides for AI Studio to riff on — not final art to copy",
-    "metadata_policy": "user-estimated recall; blanks are intentional and must be preserved"
+    "metadata_policy": "user-estimated recall; blanks are intentional and must be preserved",
+    "imagery_policy": "strain names are labels only — no literal imagery derived from them (no nautical motifs for Shipwrekt)"
   }
 }
