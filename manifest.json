@@ -20,7 +20,8 @@
     "integration": "trip_reports/integration/",
     "glsl_seeds": "glsl_seeds/",
     "ascii_seeds": "ascii_seeds/",
-    "astral_projection": "astral_projection/"
+    "astral_projection": "astral_projection/",
+    "web": "web/"
   },
   "trips": [
     {

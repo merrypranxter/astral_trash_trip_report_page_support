@@ -20,7 +20,7 @@
         <style>
           @font-face {
             font-family: "Shipwrekt Nexus";
-            src: url("${componentBase}fonts/nexus-grotesque.woff2") format("woff2");
+            src: url("${componentBase}../../assets/fonts/nexus-grotesque.woff2") format("woff2");
             font-style: normal;
             font-weight: 400;
             font-display: swap;
@@ -28,7 +28,7 @@
 
           @font-face {
             font-family: "Shipwrekt Hipnouma";
-            src: url("${componentBase}fonts/hipnouma.woff2") format("woff2");
+            src: url("${componentBase}../../assets/fonts/hipnouma.woff2") format("woff2");
             font-style: normal;
             font-weight: 400;
             font-display: swap;
@@ -257,11 +257,11 @@
         ? Promise.all([
             new FontFace(
               "Shipwrekt Nexus",
-              `url("${componentBase}fonts/nexus-grotesque.woff2") format("woff2")`,
+              `url("${componentBase}../../assets/fonts/nexus-grotesque.woff2") format("woff2")`,
             ),
             new FontFace(
               "Shipwrekt Hipnouma",
-              `url("${componentBase}fonts/hipnouma.woff2") format("woff2")`,
+              `url("${componentBase}../../assets/fonts/hipnouma.woff2") format("woff2")`,
             ),
           ].map((face) => face.load().then((loadedFace) => {
             document.fonts.add(loadedFace);

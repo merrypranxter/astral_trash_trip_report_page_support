@@ -78,7 +78,7 @@ def validate(path):
 
 def main():
     root = Path(sys.argv[1] if len(sys.argv) > 1 else "trip_reports/processed")
-    files = sorted(root.glob("*.md"))
+    files = sorted(root.glob("tr-*.md"))
     if not files:
         print(f"no processed reports found in {root}")
         return 0
