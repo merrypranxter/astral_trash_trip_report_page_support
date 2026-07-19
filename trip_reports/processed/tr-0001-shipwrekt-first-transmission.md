@@ -2,7 +2,9 @@
 # ============ STANDARD MODE ============
 trip_id: tr-0001-shipwrekt-first-transmission
 date:                     # unknown — Friday night per transcript; blank per metadata policy
-substance: Psilocybe cubensis — strain "Shipwrekt" (aborts / "schmorts"); first time with this strain (prior: Penis Envy; extensive prior psychedelic + astral projection history)
+substance: >-
+  Psilocybe cubensis — strain "Shipwrekt" (aborts / "schmorts"); first time with this strain
+  (prior: Penis Envy; extensive prior psychedelic + astral projection history)
 dose: 3 g (stated)
 route: oral
 setting: >
