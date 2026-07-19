@@ -7,7 +7,7 @@ A transparent, position-independent Web Component for **The Shipwrekt Experience
 Load the component script once:
 
 ```html
-<script defer src="./components/shipwrekt-title/shipwrekt-title.js"></script>
+<script defer src="./web/components/shipwrekt-title/shipwrekt-title.js"></script>
 ```
 
 Place the component anywhere in the page layout:
